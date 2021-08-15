@@ -284,3 +284,5 @@ Feel free to join <#${STARBOARD_CHANNEL}> to look at other people's ${EMOJI}'d p
     db.prepare("DELETE FROM posts WHERE messageId == ?").run(messageId);
   }
 }
+
+module.exports = { app: app };
